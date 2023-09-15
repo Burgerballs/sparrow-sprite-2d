@@ -8,6 +8,7 @@ var anim_holder:SpriteFrames # this holds the usable animations
 func _init():
 	anim_holder = SpriteFrames.new()
 
+# https://github.com/swordcube/NovaEngine-Godot-FNF
 # THIS IS STOLEN FROM THE NOVA ENGINE BTW ALL CREDIT GOES TO THEM LOL!!!!!!!!!
 func loadFrames(path, optimized) -> void:
 	if path == "":
